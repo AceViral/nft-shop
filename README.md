@@ -1,4 +1,6 @@
-# Hi there, I'm [Bulat](https://aceviral.github.io/portfolio/) ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif)
+<h1 align="center">Hi there, I'm <a href="https://aceviral.github.io/portfolio/" target="_blank">Bulat</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
+<h3 align="center">Computer science student, IT news writer from Russia 🇷🇺</h3>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
