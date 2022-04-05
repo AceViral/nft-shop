@@ -1,4 +1,5 @@
 import React from "react";
+// styles
 import style from "./Head.module.scss";
 interface HeadI {
    checkBoxIsChecked: boolean;
