@@ -22,16 +22,20 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: 16px;
+            h3,
+            h4,
+            h5 {
+               margin: 0;
+            }
             .CreatedBy {
                h4 {
-                  margin: 0;
+                  margin: 16px 0 5px 16px;
                   font-weight: 400;
                   font-size: 12px;
                   color: #f3f3f3;
                }
                h3 {
-                  margin: 0;
+                  margin-left: 16px;
                   font-weight: 700;
                   font-size: 14px;
                   color: #ffffff;
@@ -39,7 +43,7 @@
             }
             .CardName {
                h5 {
-                  margin: 0;
+                  margin: 0 0 16px 16px;
                   font-weight: 400;
                   font-size: 18px;
                   color: #ffffff;
@@ -51,18 +55,21 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 16px;
+            padding: 0 16px;
+            h3,
+            h4 {
+               margin: 0;
+            }
             .Available {
                h4 {
-                  margin: 0;
                   font-weight: 400;
                   font-size: 12px;
                   color: #808080;
                }
                h3 {
-                  margin: 0;
                   font-size: 16px;
                   font-weight: 600;
+                  color: #000;
                }
             }
             .Price {
@@ -70,14 +77,12 @@
                flex-direction: column;
                justify-content: right;
                h4 {
-                  margin: 0;
                   margin-left: auto;
                   font-weight: 400;
                   font-size: 12px;
                   color: #808080;
                }
                h3 {
-                  margin: 0;
                   font-size: 16px;
                   font-weight: 600;
                   color: #0040e5;

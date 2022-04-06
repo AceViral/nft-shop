@@ -1,7 +1,6 @@
 .App {
    padding: 0.4rem 2rem;
    margin-bottom: 5rem;
-
    .CardContainer {
       margin-top: 2rem;
       display: grid;
@@ -12,8 +11,10 @@
 }
 
 @media (max-width: 459px) {
-   .CardContainer {
-      display: flex;
-      flex-direction: column;
+   .App {
+      .CardContainer {
+         display: flex;
+         flex-direction: column;
+      }
    }
 }
